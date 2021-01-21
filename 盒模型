@@ -1,0 +1,10 @@
+盒模型又叫作框模型，包含五个用来描述盒子位置、尺寸的属性。分别是宽度width、高度height、内边距padding、边框border、外边框margin.
+  书写元素内容区域：width+height
+  盒子可以实体化的区域： width+height+padding+border
+  盒子实际占有的区域：width+height+padding+border+margin
+  
+  width:设置可以添加元素内容的区域的宽度。属性值：auto px %
+   特殊情况：如果一个元素不添加width属性，默认auto，不同元素如<div>独占一行，其width属性的值会自动撑满父元素的width区域，如果是<span>等不需要独占一行，其width属性的值是内部元素内容自动撑开的宽度。
+           body不需要设置width属性，宽度会自动适应浏览器窗口的宽度。
+  height:设置可以添加元素内容的区域的高度。属性值：auto px %
+  padding:设置元素
